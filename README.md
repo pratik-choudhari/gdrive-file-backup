@@ -1,7 +1,7 @@
 # gdrive-file-backup
 
 ![](https://img.shields.io/badge/MadeWith-Python-green)
-[![](https://img.shields.io/badge/BuiltFor-MLH(LHD)-yellow)](mlh.io)
+[![](https://img.shields.io/badge/BuiltFor-MLH(LHD)-yellow)](https://www.mlh.io)
 
 
 Script to automate folder backups on google drive.
