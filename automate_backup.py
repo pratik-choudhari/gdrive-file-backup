@@ -13,18 +13,16 @@ def create_zip(path, file_name):
         shutil.make_archive(f"archive/{file_name}", 'zip', path)
         return True
     except FileNotFoundError as e:
-        print(e)
         return False
 
 def google_auth():
     gauth = GoogleAuth() 
-    
     gauth.LocalWebserverAuth()        
     drive = GoogleDrive(gauth) 
     return gauth, drive
 
 def upload_backup(drive, path, file_name):
-    f = drive.CreateFile({'title': file_name, 'parents': ['1daoonOBVnxPj0Xz9lIWiTrDZA3WXFJky']}) 
+    f = drive.CreateFile({'title': file_name}) 
     f.SetContentFile(os.path.join(path, file_name)) 
     f.Upload() 
     f = None
