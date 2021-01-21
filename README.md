@@ -19,3 +19,5 @@ https://pratik-choudhari.medium.com/automate-google-drive-backup-using-python-10
 2. Zip file is uploaded to `My Drive`.
 3. Local backup is srored in `archive` folder.
 4. By default  `backup_me` is set as backup folder
+
+## Leave a star, if it helped you in anyway :)
